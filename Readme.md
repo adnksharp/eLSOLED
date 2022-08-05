@@ -1,5 +1,14 @@
 # OLED display and local server with nodeMCU ESP8266
 
+```
+Servicios iniciados
+
+Red:            aKAP
+IP:             192.168.0.8
+
+Servidor iniciado
+```
+
 [![K-081.jpg](https://i.postimg.cc/bYWsQMb4/K-081.jpg)](https://postimg.cc/140mSvvK)
 
 Mostrar texto en un display OLED de 128x64 pixeles con una conexión local con el nodeMCU ESP8266 usando el protocolo I2C y etiquetas forms de HTML con las librerías: 
