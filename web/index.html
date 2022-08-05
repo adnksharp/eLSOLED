@@ -6,11 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLED</title>
     <link rel="stylesheet" href="index.css">
+    <style>
+        * {
+            align-items: center;
+            background-color: #111216;
+            color: #ccc;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 2vh 0;
+            padding: 0.2em;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20vh;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 10vh;
+        }
+
+        input {
+            border: 1px solid #fcc22f;
+            color: #fff;
+            cursor: text;
+            outline: none;
+            font-size: 1.2em;
+            width: 98vw;
+        }
+
+        button {
+            background-color: #212126;
+            border: 0;
+            cursor: pointer;
+            width: 20vw;
+        }
+    </style>
 </head>
 
 <body>
     <h1>Controlador de pantalla OLED</h1>
-    <form action="/go", method="post">
+    <form action="/go" , method="post">
         <input type="text" name="msg" placeholder="Mensaje para la pantalla OLED">
         <button type="submit"> Enviar </button>
     </form>
